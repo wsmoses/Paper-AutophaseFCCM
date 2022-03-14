@@ -1,0 +1,20 @@
+\section{Conclusions} % 0.25 page 
+\label{sec:conc}
+\vspace{-0.1cm}
+% In this work, we demonstrated a novel deep reinforcement learning based approach to robustly and intelligently improve the performance of HLS designs, by optimizing the compiler phase ordering. 
+% These performance improvements require only a few minutes of training---one to two orders of magnitude faster than state-of-the-art approaches. 
+% \JENNY{Add some numbers, how much better?}
+% The techniques can be applied to software programs. 
+% %The flexibility of our framework enables it to support optimizing any compiled program without being restricted to HLS. 
+% We envision using such a framework to optimize a wide range of programs. 
+
+In this work, we demonstrate a novel deep reinforcement learning based approach to improve performance of HLS designs by optimizing the compiler phase ordering. 
+RL techniques achieve 16\% better results than traditional -O3 results. 
+Such improvements require only a few minutes of training---one to two orders of magnitude faster than state-of-the-art approaches based on genetic algorithms.
+While in this paper, we applied the techniques to HLS, the same RL techniques and framework can also be applied to software compilation and optimization.  
+
+%In this work, we show the potential of using RL to achieve a better ordering of compiler optimization passes. We built a framework that takes multiple programs and intelligently and robustly finds an optimal sequence of passes to apply. 
+%We also show that using the program features solely is insufficient for RL to learn, due to limited observations, the necessity to apply multiple passes sometimes to affect such features, and inability to operate on multiple programs simultaneously.
+%We propose to use program features or the applied passes as observations. 
+%Significant performance and runtime benefits are achieved by using the later approach.
+%allowing a novel approach based on RL to tackle the compiler phase ordering challenge and opening new horizons to explore in RL where actions could be used as observations. %More work should be done to better represent the programs.
